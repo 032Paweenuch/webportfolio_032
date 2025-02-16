@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paweenuch's Portfolio</title>
+    
+    <!-- นำเข้า Google Fonts (Itim) -->
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- ใช้ฟอนต์ไอติม -->
+    <style>
+        body {
+            font-family: 'Itim', cursive;
+        }
+    </style>
+</head>
+<body class="bg-yellow-200">
+
+    <!-- Header -->
+    <header class="bg-pink-300 py-4 px-8 flex justify-between items-center">
+        <h1 class="text-4xl font-bold text-pink-900">Paweenuch’s Portfolio</h1>
+        <nav>
+            <ul class="flex space-x-6 text-blue-900 text-xl">
+                <li><a href="#Home" class="hover:text-blue-500 transition duration-300">Home</a></li>
+                <li><a href="about.html" class="hover:text-blue-500 transition duration-300">About Me</a></li>
+                <li><a href="#Activities" class="hover:text-blue-500 transition duration-300">Activities</a></li>
+                <li><a href="#" class="hover:text-blue-500 transition duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="text-center mt-8">
+        <!-- Image Section -->
+        <div class="flex justify-center">
+            <div class="w-52 h-52 rounded-full overflow-hidden border-4 border-pink-500">
+                <img src="https://scontent.furt2-1.fna.fbcdn.net/v/t39.30808-6/455792404_1226914848664103_4139301940294898332_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=xLhfi4bKHXAQ7kNvgFbAzhq&_nc_oc=AditLy-SaguasDSwn9uRXjdfaxrFeSziIIfedwdtvzT33fFgOldvHGKlX5r-jrOrd1E&_nc_zt=23&_nc_ht=scontent.furt2-1.fna&_nc_gid=AyiXcp866cDs0Esboy5apWM&oh=00_AYCDQwTmEXeL8hUJTNyZgo9WR-GRd-YeLE4wcWiqcE0HHw&oe=67B2B57A" alt="" class="w-full h-full object-cover">
+            </div>
+        </div>
+
+        <!-- Welcome Section -->
+        <h2 id="Home" class="text-4xl font-bold text-indigo-900 mt-4">"Welcome"</h2>
+        <p class="text-2xl text-red-700 mt-2">to my portfolio</p>
+        <p class="text-xl text-green-700 mt-2">
+            Here, you will find works that reflect my <br> 
+            creativity and passion for my craft.
+        </p>
+
+        <hr class="border-dashed border-red-500 my-6 w-1/2 mx-auto">
+
+        <h2 id="Activities" class="text-3xl font-bold text-red-900 mt-4 mb-8">"Activities"</h2>
+
+       <!-- Example Boxes -->
+        <div class="flex justify-center space-x-9">
+            <!-- Box 1 -->
+            <div class="bg-yellow-200 w-60 h-40 flex flex-col items-center justify-center rounded-lg text-indigo-900 text-xl transition-transform transform hover:scale-110 duration-300">
+                <img src="https://food-heal.com/wp-content/uploads/2022/05/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A7%E0%B8%A1-%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B9%84%E0%B8%9B%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%AA%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%81%E0%B8%87-1024x576.jpg" alt="" class="w-full h-4/5 object-cover rounded-lg">
+                <a href="src/ex1menu.html">Ex1_menu</a>
+            </div>
+            <!-- Box 2 -->
+            <div class="bg-yellow-200 w-60 h-40 flex flex-col items-center justify-center rounded-lg text-indigo-900 text-xl transition-transform transform hover:scale-110 duration-300">
+                <img src="https://www.zohowebstatic.com/sites/zweb/images/forms/custom-theme-1.jpeg" alt="" class="w-full h-4/5 object-cover rounded-lg">
+                <a href="src/ex2form.html">Ex2_form</a>
+            </div>
+            <!-- Box 3 -->
+            <div class="bg-yellow-200 w-60 h-40 flex flex-col items-center justify-center rounded-lg text-indigo-900 text-xl transition-transform transform hover:scale-110 duration-300">
+                <img src="src/image/box.png" alt="" class="w-full h-4/5 object-cover rounded-lg">
+                <a href="src/ex3box_model.html">Ex3box_model</a>
+            </div>
+        </div>
+
+         <!-- Example Boxes -->
+         <div class="flex justify-center space-x-9 mt-10">
+            <!-- Box 4 -->
+            <div class="bg-yellow-200 w-60 h-40 flex flex-col items-center justify-center rounded-lg text-indigo-900 text-xl transition-transform transform hover:scale-110 duration-300">
+                <img src="src/image/page.png" alt="" class="w-full h-4/5 object-cover rounded-lg">
+                <a href="src/ex4page_laout.html">Ex4page_laout</a>
+            </div>
+            <!-- Box 5 -->
+            <div class="bg-yellow-200 w-60 h-40 flex flex-col items-center justify-center rounded-lg text-indigo-900 text-xl transition-transform transform hover:scale-110 duration-300">
+                <img src="src/image/tailwind.png" alt="" class="w-full h-4/5 object-cover rounded-lg">
+                <a href="src/ex5tailwind.html">Ex5_Tailwind</a>
+            </div>
+            <!-- Box 6 -->
+            <div class="bg-yellow-200 w-60 h-40 flex flex-col items-center justify-center rounded-lg text-indigo-900 text-xl transition-transform transform hover:scale-110 duration-300">
+                <img src="src/image/cloning.png" alt="" class="w-full h-4/5 object-cover rounded-lg">
+                <a href="src/ex6cloning.html">Ex6_Cloning</a>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
+

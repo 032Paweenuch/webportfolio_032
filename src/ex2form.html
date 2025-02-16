@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-lightgoldenrodyellow">
+    <div class="max-w-4xl mx-auto p-4">
+      <h1 class="text-4xl text-darkblue bg-lightblue py-4 px-6 text-center">ฟอร์มลงทะเบียนศิษย์เก่า IT + IS</h1>
+      <form action="https://example.com/" method="get" class="space-y-4">
+        <div>
+          <label for="name" class="block text-lg">ชื่อ:</label>
+          <input type="text" name="name" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div>
+          <label for="lastname" class="block text-lg">นามสกุล:</label>
+          <input type="text" name="lastname" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <p><span id="fullname" class="text-lg"></span></p>
+
+        <div>
+          <label for="stid" class="block text-lg">รหัสนักศึกษา:</label>
+          <input type="number" name="stid" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div class="flex space-x-4">
+          <div>
+            <label for="gender" class="block text-lg">เพศ:</label>
+            <input type="radio" name="gender" value="Female" />หญิง
+          </div>
+          <div>
+            <input type="radio" name="gender" value="Male" />ชาย
+          </div>
+        </div>
+
+        <div>
+          <label for="year" class="block text-lg">ปีการศึกษาเข้าศึกษา:</label>
+          <input type="number" name="year" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div>
+          <label for="address" class="block text-lg">ที่อยู่: บ้านเลขที่</label>
+          <input type="text" name="" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div>
+          <label for="vilage" class="block text-lg">หมู่บ้าน:</label>
+          <input type="text" name="vilage" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div class="flex space-x-4">
+          <div>
+            <label for="canton" class="block text-lg">ตำบล/แขวง:</label>
+            <input type="text" name="canton" class="w-full p-2 border border-gray-300 rounded-md" />
+          </div>
+          <div>
+            <label for="district" class="block text-lg">อำเภอ/เขต:</label>
+            <input type="text" name="district" class="w-full p-2 border border-gray-300 rounded-md" />
+          </div>
+        </div>
+
+        <div class="flex space-x-4">
+          <div>
+            <label for="province" class="block text-lg">จังหวัด:</label>
+            <input type="text" name="province" class="w-full p-2 border border-gray-300 rounded-md" />
+          </div>
+          <div>
+            <label for="zipcode" class="block text-lg">รหัสไปรษณีย์:</label>
+            <input type="number" name="zipcode" class="w-full p-2 border border-gray-300 rounded-md" />
+          </div>
+        </div>
+
+        <div>
+          <label for="email" class="block text-lg">อีเมล:</label>
+          <input type="email" name="email" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div>
+          <label for="phone" class="block text-lg">เบอร์โทรติดต่อ:</label>
+          <input type="number" name="phone" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div>
+          <label for="course" class="block text-lg">หลักสูตร:</label>
+          <select name="course" class="w-full p-2 border border-gray-300 rounded-md">
+            <option value="it">IT(Information Technology)</option>
+            <option value="is">IS(Independent Study)</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="job" class="block text-lg">อาชีพปัจจุบัน:</label>
+          <input type="text" name="job" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div>
+          <label for="namejob" class="block text-lg">สถานที่ทำงาน: ชื่อบริษัท:</label>
+          <input type="text" name="namejob" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div>
+          <label for="addressjob" class="block text-lg">ที่อยู่: เลขที่:</label>
+          <input type="text" name="addressjob" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div>
+          <label for="vilagejob" class="block text-lg">หมู่บ้าน:</label>
+          <input type="text" name="vilagejob" class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div class="flex space-x-4">
+          <div>
+            <label for="cantonjob" class="block text-lg">ตำบล/แขวง:</label>
+            <input type="text" name="cantonjob" class="w-full p-2 border border-gray-300 rounded-md" />
+          </div>
+          <div>
+            <label for="districtjob" class="block text-lg">อำเภอ/เขต:</label>
+            <input type="text" name="districtjob" class="w-full p-2 border border-gray-300 rounded-md" />
+          </div>
+        </div>
+
+        <div class="flex space-x-4">
+          <div>
+            <label for="provincejob" class="block text-lg">จังหวัด:</label>
+            <input type="text" name="provincejob" class="w-full p-2 border border-gray-300 rounded-md" />
+          </div>
+          <div>
+            <label for="zipcodejob" class="block text-lg">รหัสไปรษณีย์:</label>
+            <input type="number" name="zipcodejob" class="w-full p-2 border border-gray-300 rounded-md" />
+          </div>
+        </div>
+
+        <div>
+          <label for="typework" class="block text-lg">ประเภทงานที่ทำ:</label>
+          <select name="typework" class="w-full p-2 border border-gray-300 rounded-md">
+            <option value="web">Web Developer</option>
+            <option value="sa">SA</option>
+            <option value="grap">Graphic Design</option>
+            <option value="digital">Digital Marketing</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="imageUpload" class="block text-lg">อัพโหลดรูปภาพ:</label>
+          <input type="file" id="imageUpload" name="image" accept="image/*" required class="w-full p-2 border border-gray-300 rounded-md" />
+        </div>
+
+        <div class="flex space-x-4">
+          <input type="submit" value="Submit" class="bg-blue-500 text-white px-4 py-2 rounded-md" />
+          <input type="reset" value="Reset" class="bg-gray-300 text-black px-4 py-2 rounded-md" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
